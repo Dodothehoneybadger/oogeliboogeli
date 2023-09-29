@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav ul {
+    background-color:deepskyblue;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+        transition: .5s;
+}
+
+nav ul li a:hover {
+    transition: .5s;
+    background-color: white;
+    border-radius: 4px;
+    text-shadow: 2px 1px navy;
+    color: deepskyblue;
+}
+
+nav ul li a:after {
+    content: '';
+    transition: .5s;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.tekst {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 1px #8f8f8f;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.overskrift {
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: deepskyblue;
+    text-shadow: 6px 2px navy;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.minimarket {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bakgrunn{
+    z-index: -99;
+    background-color: rgb(66, 66, 66); 
+    opacity: 50%;
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    margin-top: 0;
+    padding: 0;
+    background-image: url(./bildebilde/fjell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.croiassant {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    right: 0px;
+}
+
+.croiassant img{
+    height: 200px;
+    width: 200px;
+}
